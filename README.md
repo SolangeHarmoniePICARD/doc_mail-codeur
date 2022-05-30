@@ -1,10 +1,10 @@
 # DWWM DIJON 2022 - Configuration de l'environnement de travail
 
+> ⚠️ J'ai utilisé une adresse d'exemple, « sh.picard@codeur.online » pour rédigfer ce tuto. N'essayez pas de me contacter via cette adresse mail : je ne la consulterai pas. Si vous avez besoin de communiquer avec moi par mail, écrivez à « **s.picard@codeur.online** ».
+
 ## Le Webmail Codeur Online
 
-- Dans la barre d'adresse de votre navigateur Microsoft Edge, tapez `https://mail.codeur.online/roundcube/`.
-
-- Vous arrivez sur une page de *warning*, ce n'est pas grave, cliquez sur `Advanced` :
+- Dans la barre d'adresse de votre navigateur Microsoft Edge, tapez `https://mail.codeur.online/roundcube/`.  Vous arrivez sur une page de *warning*, ce n'est pas grave, cliquez sur `Advanced` :
 
 ![](screenshots/01.png)
 
@@ -196,4 +196,4 @@
 
 ![](screenshots/44.png)
 
-- 🎉 Vous avez réussi ! C'est terminé ! 🥳
+> 🎉 Vous avez réussi ! C'est terminé pour ce tuto ! 🥳
