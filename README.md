@@ -148,15 +148,43 @@
 
 ![](screenshots/32.png)
 
+- ⚠️ L'application peut avoir créé un compte mail sur la base du compte Microsoft. ** Il ne fonctionne pas ! (et ne fonctionnera jamais).** On va donc voir comment le supprimer. Vous vous retrouvez avec quelque chose comme ça , cliquez sur la roue crantée en bas à gauche: 
+  
+![](screenshots/45.png)
+
+- Choisissez `Gérer les comptes` :
+
+![](screenshots/46.png)
+
+- Cliquez sur votre compte Microsoft que vous devez supprimer, puis sur `Supprimer le compte` :
+
+![](screenshots/47.png)
+
+- Confirmez : 
+
+![](screenshots/48.png)
+
+- Vous vous retrouvez avec une interface vierge. On va pouvoir commencer : 
+
+![](screenshots/49.png)
+
+- Retournez dans `Gérez les comptes` :
+
+![](screenshots/50.png)
+
+- Choisissez `Ajouter un compte` : 
+
+![](screenshots/51.png)
+
 - Choisissez « `Configuration avancée` » :
 
 ![](screenshots/33.png)
 
-- Puis l'option qui permet de configurer les protocoles `POP3` ou `IMAP`, mais pas « Exchange Active Sync » :
+- Puis l'**option qui permet de configurer les protocoles `POP3` ou `IMAP`** :
 
 ![](screenshots/34.png)
 
-- Renseignez l'adresse Codeur Online, qui est aussi le nom d'utilisateur. Cette fois, c'est bien le mot de passe du Webmail Codeur Online, et non celui du compte Microsoft. Reproduisez la configuration suivante, en personnalisant avec vos informations :
+- Renseignez l'adresse Codeur Online, qui est aussi le nom d'utilisateur. Cette fois, **c'est bien le mot de passe du Webmail Codeur Online**, et non celui du compte Microsoft. Reproduisez la configuration suivante, en personnalisant avec vos informations :
 
 ![](screenshots/35.png)
 
@@ -176,7 +204,35 @@
 
 ![](screenshots/39.png)
 
-- Il reste bloqué dans la boîte d'envoi (cliquez sur « `Plus` » et ajoutez les autres boîtes en « favoris » pour qu'elle s'affichent), un symbole « Warning » indique que la synchronisation ne se fait pas (il faut parfois insister un peu pour qu'il apparaisse). Cliquez dessus : 
+- Il reste bloqué dans la boîte d'envoi (cliquez sur « `Plus` » et ajoutez les autres boîtes en « favoris » pour qu'elle s'affichent). Faites un clic droit sur le nom de votre compte, et choisissez `Paramètres du compte` :
+
+![](screenshots/52.png)
+
+- Choisissez `Changer les paramètres de synchronisation` :
+
+![](screenshots/53.png)
+
+- Cliquez sur `Paramètres avancés` : 
+
+![](screenshots/54.png)
+
+- Vous constaterez que l'application a rajouté toute seule des `:0` et `:1` après les ports dans les champs `Serveur de courier entrant` et `serveur de courier sortant`. Supprimez-les pour que ça redevienne ce que nous avions paramétré précédemment, à savoir `mail.codeur.online:110` et `mail.codeur.online:587` :
+
+![](screenshots/55.png)
+
+- Il vous demande de sauvegarder les paramètres :
+
+![](screenshots/56.png)
+
+- Puis il vous affiche un bandeau vous disant qu'il faut ré-entrer le mot de passe, c'est bien toujours le mot de passe du webmail Codeur Online : 
+
+![](screenshots/57.png)
+
+- Ce n'est pas encore fini... Retournez dans les paramètres (la roue crantée en bas à gauche), choisissez `Gérer les comptes`, cliquez sur le nom de votre compte, puis retourner dans `Modifier les options de synchronisation`. Et là, il va falloir mettre `Option de Synchronisation` > `Messagerie électronique` sur `Off` (puis appuyez sur `Terminer`, `sauvegarder`) :
+
+![](screenshots/58.png)
+
+- Actualisez le Courier. Un symbole « Warning » indique que la synchronisation ne se fait pas. Cliquez dessus : 
 
 ![](screenshots/40.png)
 
