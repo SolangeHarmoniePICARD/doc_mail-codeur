@@ -1,6 +1,6 @@
 # DWWM DIJON 2022 - Configuration de l'environnement de travail
 
-> ⚠️ J'ai utilisé une adresse d'exemple, « sh.picard@codeur.online » pour rédigfer ce tuto. N'essayez pas de me contacter via cette adresse mail : je ne la consulterai pas. Si vous avez besoin de communiquer avec moi par mail, écrivez à « **s.picard@codeur.online** ».
+> ⚠️ J'ai utilisé une adresse d'exemple, « sh.picard@codeur.online » pour rédiger ce tuto. N'essayez pas de me contacter via cette adresse mail : je ne la consulterai pas. Si vous avez besoin de communiquer avec moi par mail, écrivez à « **s.picard@codeur.online** ».
 
 ## Le Webmail Codeur Online
 
@@ -147,6 +147,8 @@
 - Dans le menu « `Démarrer` » de Windows 11, tapez « `Mail` » ou « `Courier` » :
 
 ![](screenshots/32.png)
+
+> Ne tenez pas compte du changement de couleur de l'interface, c'est juste que les *screenshots* n'ont pas été réalisés le même jour.
 
 - ⚠️ L'application peut avoir créé un compte mail sur la base du compte Microsoft. ** Il ne fonctionne pas ! (et ne fonctionnera jamais).** On va donc voir comment le supprimer. Vous vous retrouvez avec quelque chose comme ça , cliquez sur la roue crantée en bas à gauche: 
   
