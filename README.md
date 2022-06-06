@@ -142,116 +142,16 @@
 ![](screenshots/31.png)
 
 
-## L'application Microsoft Courier
+## L'application Thunderbird
 
-- Dans le menu « `Démarrer` » de Windows 11, tapez « `Mail` » ou « `Courier` » :
+> Débrouillez-vous pour **[télécharger l'application](https://download.mozilla.org/?product=thunderbird-91.10.0-SSL&os=win64&lang=fr)**, l'installer et la configurer ! (pas le temps d'écrire le tuto, je mets 2 screens pour vous aider, réalisés sur une ancienne version de l'application)
 
-![](screenshots/32.png)
+- Lorsque vous démarrez l'application pour la première fois, vous arrivez (plus ou moins) sur cet écran : 
 
-> Ne tenez pas compte du changement de couleur de l'interface, c'est juste que les *screenshots* n'ont pas été réalisés le même jour.
-
-- ⚠️ L'application peut avoir créé un compte mail sur la base du compte Microsoft. ** Il ne fonctionne pas ! (et ne fonctionnera jamais).** On va donc voir comment le supprimer. Vous vous retrouvez avec quelque chose comme ça , cliquez sur la roue crantée en bas à gauche: 
-  
 ![](screenshots/45.png)
 
-- Choisissez `Gérer les comptes` :
+- Choisissez "Configurer manuellement" puis remplissez les informations d'identification et les options de synchronisation comme suit : 
 
 ![](screenshots/46.png)
-
-- Cliquez sur votre compte Microsoft que vous devez supprimer, puis sur `Supprimer le compte` :
-
-![](screenshots/47.png)
-
-- Confirmez : 
-
-![](screenshots/48.png)
-
-- Vous vous retrouvez avec une interface vierge. On va pouvoir commencer : 
-
-![](screenshots/49.png)
-
-- Retournez dans `Gérez les comptes` :
-
-![](screenshots/50.png)
-
-- Choisissez `Ajouter un compte` : 
-
-![](screenshots/51.png)
-
-- Choisissez « `Configuration avancée` » :
-
-![](screenshots/33.png)
-
-- Puis l'**option qui permet de configurer les protocoles `POP3` ou `IMAP`** :
-
-![](screenshots/34.png)
-
-- Renseignez l'adresse Codeur Online, qui est aussi le nom d'utilisateur. Cette fois, **c'est bien le mot de passe du Webmail Codeur Online**, et non celui du compte Microsoft. Reproduisez la configuration suivante, en personnalisant avec vos informations :
-
-![](screenshots/35.png)
-
-- Pour le serveur entrant, tapez `mail.codeur.online:110` et choisissez `POP3`, pour le serveur sortant, tapez `mail.codeur.online:587`, et enfin, cochez toutes les cases, sauf le protocole SSL pour les mails entrant :
-
-![](screenshots/36.png)
-
-- Vous aurez un beau message de succès MAIS... ce n'est malheureusement pas aussi simple que ça !
-
-![](screenshots/37.png)
-
-- Normalement, la boîte de réception a dû se remplir. Sinon c'est que vous avez raté quelque chose :
-
-![](screenshots/38.png)
-
-- Essayez de vous envoyer un mail à vous même :
-
-![](screenshots/39.png)
-
-- Il reste bloqué dans la boîte d'envoi (cliquez sur « `Plus` » et ajoutez les autres boîtes en « favoris » pour qu'elle s'affichent). Faites un clic droit sur le nom de votre compte, et choisissez `Paramètres du compte` :
-
-![](screenshots/52.png)
-
-- Choisissez `Changer les paramètres de synchronisation` :
-
-![](screenshots/53.png)
-
-- Cliquez sur `Paramètres avancés` : 
-
-![](screenshots/54.png)
-
-- Vous constaterez que l'application a rajouté toute seule des `:0` et `:1` après les ports dans les champs `Serveur de courier entrant` et `serveur de courier sortant`. Supprimez-les pour que ça redevienne ce que nous avions paramétré précédemment, à savoir `mail.codeur.online:110` et `mail.codeur.online:587` :
-
-![](screenshots/55.png)
-
-- Il vous demande de sauvegarder les paramètres :
-
-![](screenshots/56.png)
-
-- Puis il vous affiche un bandeau vous disant qu'il faut ré-entrer le mot de passe, c'est bien toujours le mot de passe du webmail Codeur Online : 
-
-![](screenshots/57.png)
-
-- Ce n'est pas encore fini... Retournez dans les paramètres (la roue crantée en bas à gauche), choisissez `Gérer les comptes`, cliquez sur le nom de votre compte, puis retourner dans `Modifier les options de synchronisation`. Et là, il va falloir mettre `Option de Synchronisation` > `Messagerie électronique` sur `Off` (puis appuyez sur `Terminer`, `sauvegarder`) :
-
-![](screenshots/58.png)
-
-- Actualisez le Courier. Un symbole « Warning » indique que la synchronisation ne se fait pas. Cliquez dessus : 
-
-![](screenshots/40.png)
-
-- Dites que vous voulez faire confiance à ce serveur :
-
-![](screenshots/41.png)
-
-- Il va vous répondre qu'il y a un problème. C'est normal : 
-
-![](screenshots/42.png)
-
-- Fermez l'application et relancez-là ! Vous constatez que vous avez enfin reçu le mail que vous vous êtes envoyé :
-
-![](screenshots/43.png)
-
-- Vous pouvez vous envoyer un second mail pour confirmer que tout va bien :
-
-![](screenshots/44.png)
 
 > 🎉 Vous avez réussi ! C'est terminé pour ce tuto ! 🥳
