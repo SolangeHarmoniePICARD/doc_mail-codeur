@@ -148,10 +148,10 @@
 
 - Lorsque vous démarrez l'application pour la première fois, vous arrivez (plus ou moins) sur cet écran : 
 
-![](screenshots/45.png)
+![](screenshots/59.png)
 
 - Choisissez "Configurer manuellement" puis remplissez les informations d'identification et les options de synchronisation comme suit : 
 
-![](screenshots/46.png)
+![](screenshots/60.png)
 
 > 🎉 Vous avez réussi ! C'est terminé pour ce tuto ! 🥳
